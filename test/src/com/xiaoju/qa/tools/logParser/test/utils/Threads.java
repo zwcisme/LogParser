@@ -15,7 +15,7 @@ public class  Threads implements Runnable{
         while(true){ 
             try {
             	FileWriter writer = new FileWriter(path, true);  
-            	writer.write("NOTICE: "+new Date()+" [3769188250012987073][pushorder.cpp:115][execute] task:kkk|"+wtb[(int) Math.random()]+"|sdf|222|234|ooo");  
+            	writer.write("NOTICE: "+new Date()+" [3769188250012987073][pushorder.cpp:115][execute] task:kkk|"+wtb[(int) (Math.random()*wtb.length)]+"|sdf|222|234|ooo");  
             	writer.write("\n");
             	writer.close();  
 				Thread.sleep(100);
