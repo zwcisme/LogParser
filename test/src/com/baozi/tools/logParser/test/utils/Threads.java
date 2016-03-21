@@ -1,4 +1,4 @@
-package com.xiaoju.qa.tools.logParser.test.utils;
+package com.baozi.tools.logParser.test.utils;
 
 import java.io.FileWriter;
 import java.io.IOException;
