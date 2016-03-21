@@ -1,4 +1,4 @@
-package com.xiaoju.qa.tools.logParser.parser;
+package com.baozi.tools.logParser.parser;
 
 import java.io.BufferedReader;
 import java.io.IOException;
